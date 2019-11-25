@@ -1,0 +1,3 @@
+*/30 * * * * /root/check_configuration
+*/15 * * * * /root/send_health.py
+* * * * * /root/send_data.py -a send

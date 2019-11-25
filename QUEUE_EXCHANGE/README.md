@@ -6,3 +6,5 @@ exchange setting :
 exchange "jalur_khusus", Type : direct, Durability : Durable
 exchange "jalur_lambat", Type : direct, Durability : Durable
 untuk "antrian.py" dan "receive.py" data yg masuk melalui exchange di pilah dan dimasukkan kedalam QUEUE
+
+Dianjutkan menggunakan queue declare exclusive agar queue random & secure

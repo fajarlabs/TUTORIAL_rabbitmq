@@ -23,6 +23,10 @@ while True :
 	time.sleep(0.4)
 	channel.basic_publish(exchange='jalur_lambat', routing_key='Q2', body='Message for Q2')
 	time.sleep(0.4)
+	channel.basic_publish(exchange='jalur_alternatif', routing_key='Q2', body='Message alternatif for Q2')
+	time.sleep(0.4)
+	channel.basic_publish(exchange='jalur_alternatif', routing_key='Q3', body='Message error for Q3')
+	time.sleep(0.4)
 
 print(" [x] Sent %r" % message)
 connection.close()

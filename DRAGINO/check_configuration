@@ -1,0 +1,1 @@
+wget "https://dragino.000webhostapp.com/config.ini" -O /root/config.ini
